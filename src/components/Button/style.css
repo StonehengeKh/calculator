@@ -1,0 +1,43 @@
+.button {
+  height: 50px;
+  border-radius: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin: 5px 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  background-color: red;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.darkgrey {
+  background-color: #434040;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.small {
+  width: 50px;
+}
+
+.large {
+  width: 90px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
